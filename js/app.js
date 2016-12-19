@@ -64329,7 +64329,7 @@ angular.module('app').controller('landing', ['$scope', '$xonom', 'scroll', '$loc
 angular.module('app').config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
   $urlRouterProvider.otherwise('/');
   return $stateProvider.state('landing', {
-    url: '/nixarweb',
+    url: '/nixarweb/',
     parent: 'root',
     views: {
       'content': {
