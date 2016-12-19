@@ -64089,7 +64089,7 @@ angular.module('app').controller('app', ['$scope', '$xonom', 'scroll', '$locatio
 angular.module('app').config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
   $urlRouterProvider.otherwise('landing');
   return $stateProvider.state('root', {
-    url: '',
+    url: '/nixarweb',
     views: {
       '': {
         templateUrl: 'app',
