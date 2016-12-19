@@ -64089,7 +64089,7 @@ angular.module('app').controller('app', ['$scope', '$xonom', 'scroll', '$locatio
 angular.module('app').config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
   $urlRouterProvider.otherwise('landing');
   return $stateProvider.state('root', {
-    url: '/nixarweb',
+    url: '',
     views: {
       '': {
         templateUrl: 'app',
@@ -64329,7 +64329,7 @@ angular.module('app').controller('landing', ['$scope', '$xonom', 'scroll', '$loc
 angular.module('app').config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
   $urlRouterProvider.otherwise('/');
   return $stateProvider.state('landing', {
-    url: '/nixarweb',
+    url: '/',
     parent: 'root',
     views: {
       'content': {
