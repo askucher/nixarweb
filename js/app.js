@@ -64406,7 +64406,7 @@ angular.module('app').directive('pipe', function(){
  */
 (function() {
 
-  if (!(Terminal))
+  if (!(window.Terminal))
      return
   /**
    * Elements
