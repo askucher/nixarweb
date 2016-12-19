@@ -7422,13 +7422,17 @@ md-tooltip {
       .doc .doc-body > md-sidenav > md-content > md-list > md-divider {
         border: 1px solid #7E868E; }
 .doc .doc-body > md-content {
+<<<<<<< HEAD
   overflow: hidden;
+=======
+>>>>>>> b26f4f79763e5e573b87f737ae28c2073b19bbc7
   background: white;
   height: 100vh;
   padding: 0; }
   .doc .doc-body > md-content > .split-panes > div {
     background: transparent;
     overflow-y: scroll; }
+<<<<<<< HEAD
     .doc .doc-body > md-content > .split-panes > div.split-handler {
       height: 5px;
       background-color: #A5A0A0;
@@ -7436,6 +7440,8 @@ md-tooltip {
     .doc .doc-body > md-content > .split-panes > div.term {
       background: #474F59;
       height: 100%; }
+=======
+>>>>>>> b26f4f79763e5e573b87f737ae28c2073b19bbc7
     .doc .doc-body > md-content > .split-panes > div.commands > .command .name {
       color: #7cb28a; }
     .doc .doc-body > md-content > .split-panes > div.commands > .command.program > h2 {
