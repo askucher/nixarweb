@@ -63985,10 +63985,6 @@ return jQuery;
 angular.module('app', ['ui.router', 'xonom', 'ngMaterial', 'ngSanitize', 'bgDirectives', 'ngSocial']);
 angular.module('app').config(function($locationProvider, $mdThemingProvider){
   $locationProvider.baseHref = "/nixarweb/";
-  $locationProvider.html5Mode({
-    enabled: true,
-    requireBase: true
-  });
   $mdThemingProvider.definePalette('amazingPaletteName', {
     '50': 'ffebee',
     '100': 'ffcdd2',
